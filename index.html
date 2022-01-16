@@ -10,6 +10,11 @@
     <!-- CSS -->
     <link rel="stylesheet" href="style.css">
 
+
+<!-- Animaciones -->
+<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+
     
 
 </head>
@@ -38,13 +43,14 @@
 
     <section class="section-index">
 
-        
+        <!-- Aplicando animaciones al logo y H1 -->
 
-        <img src="multimedia/images/logo.jpeg" alt="unalomelogo">
+        <div data-aos="zoom-in" data-aos-duration="3000"> <img src="multimedia/images/logo.jpeg" alt="unalomelogo">
+        </div>
 
-        
-        <h1 Class="titulo-principal">Lifestyle Products</h1>
-    
+        <div data-aos="zoom.in" data-aos-duration="500">
+            <h1 Class="titulo-principal">Lifestyle Products</h1>
+        </div>
 
 
     </section>
@@ -77,6 +83,13 @@
 
 
     </footer>
+
+      <!-- Animaciones -->
+
+      <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+      <script>
+          AOS.init();
+      </script>
 
   
 
