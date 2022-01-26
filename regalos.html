@@ -13,6 +13,10 @@
     <!-- CSS -->
     <link rel="stylesheet" href="style.css">
 
+    <!-- Animaciones -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+
 </head>
 
 <body>
@@ -21,7 +25,8 @@
 
         <nav class="navbar navbar-expand-lg navbar-light bg-new2">
             <div class="container-fluid">
-                <a class="navbar-brand" href="index.html"><img src="multimedia/images/logoindex.jpeg" alt="logounalomeindex"></a>
+                <a class="navbar-brand" href="index.html"><img src="multimedia/images/logoindex.jpeg"
+                        alt="logounalomeindex"></a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                     aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
@@ -53,25 +58,27 @@
 
     </header>
 
+    <!-- Aplicando animaciones en las imagenes de Section -->
+
     <section class="varios-container">
 
         <div>
             <h1 Class="titulo-principal titulo-secundario">Regalos</h1>
         </div>
 
-        <div class="photo-item photo-one">
+        <div data-aos="fade-right" class="photo-item photo-one">
             <img src="multimedia/images/regalos/box-laorganizada.jpeg" alt="box-laorganizada">
             <p>Box La Organizada</p>
         </div>
-        <div class="photo-item photo-two">
+        <div data-aos="fade-left" class="photo-item photo-two">
             <img src="multimedia/images/regalos/box-papeleria.jpeg" alt="box-papeleria">
             <p>Box Papeleria<p>
         </div>
-        <div class="photo-item photo-three">
+        <div data-aos="flip-left" class="photo-item photo-three">
             <img src="multimedia/images/regalos/box-spa-premium.jpeg" alt="box-spa-premium">
             <p>Box Spa Premium</p>
         </div>
-        <div class="photo-item photo-four">
+        <div data-aos="flip-right" class="photo-item photo-four">
             <img src="multimedia/images/regalos/kit-agenda.jpeg" alt="kit-agenda">
             <p>Mega Kit Agenda</p>
         </div>
@@ -102,6 +109,12 @@
 
 
         <h6 class="copyright">Copyright Florencia Espósito</h6>
+
+        <!-- Animaciones -->
+        <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+        <script>
+            AOS.init();
+        </script>
 
 
         <!-- Bootstrap -->
