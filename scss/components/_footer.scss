@@ -1,0 +1,106 @@
+/* Footer */
+
+.footer-container {
+
+    background-color: #c6e2dc;
+    line-height: 40px;
+    color: gray;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: xx-small;
+    display: flex;
+    justify-content: space-around;
+}
+
+.rrss-container {
+    display: flex;
+
+}
+
+.facebook {
+    margin-left: 1rem;
+    margin-right: 1rem;
+    margin-top: 0rem;
+}
+
+.instagram {
+    margin-left: 1rem;
+    margin-right: 1rem;
+    margin-top: 0rem;
+}
+
+.whatsup {
+    margin-left: 1rem;
+    margin-right: 1rem;
+    margin-top: 0rem;
+}
+
+.contacto {
+    margin-right: 0rem;
+    font-size: large;
+}
+
+.copyright {
+    display: flex;
+    justify-content: center;
+    margin-left: 0rem;
+}
+
+
+.footer-container {
+    display: flex;
+    flex-direction: column;
+}
+
+
+/* Media query - Mobile Footer */
+
+@media only screen and (max-width: 320px) {
+
+
+    .rrss-container {
+        width: 40%;
+    }
+
+    .contacto {
+        margin-left: 0.5rem;
+    }
+
+}
+
+
+/* Media query - Tablet Footer */
+
+@media only screen and (min-width: 321px) and (max-width: 768px) {
+
+    .footer-container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .rrss-container {
+        width: 40%;
+    }
+
+    .contacto {
+        margin-left: 0.5rem;
+    }
+
+}
+
+/* Media query - Desktop Footer */
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+
+    .footer-container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .rrss-container {
+        width: 40%;
+    }
+
+    .contacto {
+        margin-left: 0.5rem;
+    }
+}
