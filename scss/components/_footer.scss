@@ -8,47 +8,49 @@
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: xx-small;
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
 }
 
 .rrss-container {
     display: flex;
-
 }
 
 .facebook {
     margin-left: 1rem;
     margin-right: 1rem;
-    margin-top: 0rem;
+    margin-top: 1rem;
 }
 
 .instagram {
     margin-left: 1rem;
     margin-right: 1rem;
-    margin-top: 0rem;
+    margin-top: 1rem;
 }
 
 .whatsup {
     margin-left: 1rem;
     margin-right: 1rem;
-    margin-top: 0rem;
+    margin-top: 1rem;
 }
 
 .contacto {
-    margin-right: 0rem;
+    margin-right: 2rem;
+    margin-left: 2rem;
+    margin-top: 1rem;
     font-size: large;
 }
 
 .copyright {
     display: flex;
-    justify-content: center;
-    margin-left: 0rem;
+    justify-content: right;
+    margin-right: 1rem;
 }
 
 
 .footer-container {
     display: flex;
     flex-direction: column;
+    
 }
 
 
@@ -101,6 +103,6 @@
     }
 
     .contacto {
-        margin-left: 0.5rem;
+        margin-left: 0,5rem;
     }
 }

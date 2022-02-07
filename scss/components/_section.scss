@@ -17,8 +17,7 @@
 
 section {
     background-color: rgb(218, 191, 218);
-    display: flex;
-    justify-content: center;
+    @extend %flex;
     margin-top: 0%;
     margin-bottom: 1%;
     align-items: center;
@@ -26,15 +25,16 @@ section {
 }
 
 .section-index {
-    background-color: transparent
+    display: flex;
+    flex-direction: column;
+    background-color: transparent;
 }
 
 
 
 section p {
     margin: 5%;
-    display: flex;
-    justify-content: center;
+    @extend %flex;
     font-size: large;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }

@@ -1,4 +1,5 @@
 /* Clases para modificar background color predeterminado de Bootstrap */
+@import "../base/maps";
 
 .bg-new {
     background-color: #c6e2dc;
@@ -6,4 +7,9 @@
 
 .bg-new2 {
     background-color: white;
+}
+
+.menu-uno {
+    background-color: map-get($menu-uno, bg-color-uno);
+    font-size: map-get($menu-uno, font-size-uno);
 }

@@ -1,0 +1,14 @@
+@mixin botones($relleno,$redondeado,$border) {
+    padding: $relleno;
+    border-radius:$redondeado;
+    border: $border;
+}
+
+
+.boton-comprar {
+    @include botones(20px, 2px, 1px violet );
+}
+
+.boton-stock {
+    @include botones(20px, 2px, 1px gray );
+}
