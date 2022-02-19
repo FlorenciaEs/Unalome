@@ -1,19 +1,19 @@
 /* Section */
 @import "../base/variables";
 
+
 .titulo-principal {
-
     color: black;
-    @import url('https://fonts.googleapis.com/css2?family=Oooh+Baby&display=swap');
-    font-family: 'Oooh Baby', cursive;
+    @import url("https://fonts.googleapis.com/css2?family=Oooh+Baby&display=swap");
+    font-family: "Oooh Baby", cursive;
     font-style: normal;
-    font-size: xx-large;
-    font-weight: 300;
+    font-size: x-large;
+    font-weight: 350;
+    text-align:center;
     display: flex;
-    justify-content: center;
+    justify-content:center;
     display: grid;
-
-}
+  }
 
 section {
     background-color: rgb(218, 191, 218);
@@ -30,14 +30,12 @@ section {
     background-color: transparent;
 }
 
-
-
 section p {
     margin: 5%;
-    @extend %flex;
     font-size: large;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-}
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    text-align: center;
+  }
 
 .varios-container {
     display: flex;
